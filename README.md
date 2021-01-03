@@ -2,6 +2,17 @@
 
 This project is to develop the UI which contains the dropdown element and the content of the dropdown should be fetched by the api calls. I have used the React to developed the Frontend and Node.js as the Backnend.
 
+#Overview of the UI Component
+
+1.I have devide the Assets, Clients and Orders into section to you can choose them.
+2.Drop down also searchable so you can search into it.
+3.it also suppport multi select option.
+4.when you select the entites they will convert into the chip.
+
+#Library Used:
+1.bootstrap
+2.react-select
+
 So before start of the application we need to configure our database(Mysql) which contains our entities(assets, clients and order).
 
 I am assuming that these are the following details into our database
