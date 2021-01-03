@@ -6,10 +6,10 @@ So before start of the application we need to configure our database(Mysql) whic
 
 I am assuming that these are the following details into our database
 
-///////////////////////
-username: root
-password: ''
-////////////////////
+/////////////////////// <br>
+username: root<br>
+password: ''<br>
+////////////////////<br>
 
 so our database would be "Entities" which contains the following table 
 
@@ -19,7 +19,7 @@ so our database would be "Entities" which contains the following table
 
 so before gets started let run the following script into the mysql database;
 
-////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////<br>
 create database Entities;
 
 use Entities;
@@ -42,10 +42,10 @@ CREATE TABLE `assets` (
     primary key( `AssetId` )
 ) engine=InnoDB auto_increment=0 default charset=utf8mb4;
 
-/////////////////////////////////////
+/////////////////////////////////////<br>
 
-let's add some data to it
-/////////////////////////////////////////
+let's add some data to it <br>
+/////////////////////////////////////////<br>
 use Entities;
 
 insert into `clients` values(1, 'clients1'), (2, 'clients2'),(3, 'clients3'),(4, 'clients4');
@@ -54,7 +54,7 @@ insert into `orders` values(1, 'orders1'), (2, 'orders2'),(3, 'orders3'),(4, 'or
 
 insert into `assets` values(1, 'assets1'), (2, 'assets2'),(3, 'assets3'),(4, 'assets4');
 
-/////////////////////////////////////////////
+/////////////////////////////////////////////<br>
 
 ### To run the backend go into the Node/ director and type `node index.js`
 our backend will run at the [http://localhost:3001](http://localhost:3001)
